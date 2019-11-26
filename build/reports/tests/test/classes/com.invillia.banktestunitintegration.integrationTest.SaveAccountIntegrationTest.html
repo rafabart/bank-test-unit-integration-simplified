@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SaveAccountIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SaveAccountIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.invillia.banktestunitintegration.integrationTest.html">com.invillia.banktestunitintegration.integrationTest</a> &gt; SaveAccountIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.116s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldcreateAccountWithSuccessTest()</td>
+<td class="success">2.116s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2019-11-26 17:54:58.839  INFO 17156 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.invillia.banktestunitintegration.integrationTest.SaveAccountIntegrationTest], using SpringBootContextLoader
+2019-11-26 17:54:58.841  INFO 17156 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.invillia.banktestunitintegration.integrationTest.SaveAccountIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-11-26 17:54:58.866  INFO 17156 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2019-11-26 17:54:58.868  INFO 17156 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f632aee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4745228d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@24932395, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@78e201c2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1eb0606a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@700f787b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4dbd6264, org.springframework.test.context.event.EventPublishingTestExecutionListener@25398600, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@381711fd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@33507a24, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15d88068, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7cb81d55, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ca063c6]
+2019-11-26 17:54:58.894  INFO 17156 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 17:54:58.900  INFO 17156 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 17:54:58.901  INFO 17156 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-11-26 17:54:58.913  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-11-26 17:54:59.056  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2019-11-26 17:54:59.114  INFO 17156 --- [    Test worker] c.i.b.i.SaveAccountIntegrationTest       : Starting SaveAccountIntegrationTest on incubadora-Latitude-3540 with PID 17156 (started by incubadora in /home/incubadora/IdeaProjects/bank-test-unit-integration-simplified)
+2019-11-26 17:54:59.115  INFO 17156 --- [    Test worker] c.i.b.i.SaveAccountIntegrationTest       : No active profile set, falling back to default profiles: default
+2019-11-26 17:54:59.378  INFO 17156 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 17:54:59.392  INFO 17156 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 2 repository interfaces.
+2019-11-26 17:54:59.541  INFO 17156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 17:54:59.680  WARN 17156 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-11-26 17:54:59.685  INFO 17156 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-11-26 17:54:59.687  INFO 17156 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-26 17:54:59.687  INFO 17156 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-26 17:54:59.716  INFO 17156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-26 17:54:59.716  INFO 17156 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 599 ms
+2019-11-26 17:54:59.895  INFO 17156 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-26 17:54:59.904  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-11-26 17:54:59.913  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-11-26 17:54:59.914  INFO 17156 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-11-26 17:55:00.061  INFO 17156 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-26 17:55:00.062  INFO 17156 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 17:55:00.475  INFO 17156 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 17:55:00.726  INFO 17156 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 46343 (http) with context path ''
+2019-11-26 17:55:00.727  INFO 17156 --- [    Test worker] c.i.b.i.SaveAccountIntegrationTest       : Started SaveAccountIntegrationTest in 1.653 seconds (JVM running for 25.013)
+Request method:	POST
+Request URI:	http://localhost:46343/accounts
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;numberAccount&quot;: &quot;123456&quot;,
+    &quot;agency&quot;: &quot;1111&quot;,
+    &quot;balance&quot;: 1000.0,
+    &quot;limitAccount&quot;: 0.0,
+    &quot;accountTypeString&quot;: &quot;SAVINGS&quot;,
+    &quot;idCustomer&quot;: 1
+}
+2019-11-26 17:55:00.822  INFO 17156 --- [o-auto-5-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-26 17:55:00.825  INFO 17156 --- [o-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-26 17:55:00.844  INFO 17156 --- [o-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+HTTP/1.1 201 
+Location: http://localhost:46343/accounts/1
+Content-Length: 0
+Date: Tue, 26 Nov 2019 19:55:00 GMT
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at Nov 26, 2019, 5:55:29 PM</p>
+</div>
+</div>
+</body>
+</html>

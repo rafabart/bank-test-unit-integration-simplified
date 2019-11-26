@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.invillia.banktestunitintegration.integrationTest.UpdateAccountIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T19:54:55" hostname="incubadora-Latitude-3540" time="3.181">
+  <properties/>
+  <testcase name="shouldUpdateAccountWithSuccessTest()" classname="com.invillia.banktestunitintegration.integrationTest.UpdateAccountIntegrationTest" time="3.181"/>
+  <system-out><![CDATA[2019-11-26 17:54:55.635  INFO 17156 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.invillia.banktestunitintegration.integrationTest.UpdateAccountIntegrationTest], using SpringBootContextLoader
+2019-11-26 17:54:55.637  INFO 17156 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.invillia.banktestunitintegration.integrationTest.UpdateAccountIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-11-26 17:54:55.644  INFO 17156 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2019-11-26 17:54:55.645  INFO 17156 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c7a641b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ca80841, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fe40d1c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4cdd0456, org.springframework.test.context.support.DirtiesContextTestExecutionListener@73b8fb6a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4f6e0f5c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@200d7740, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d638a3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3081f0f8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f2a0d5b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@44d6dc89, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7170f790, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4e49cf76]
+2019-11-26 17:54:55.656  INFO 17156 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 17:54:55.658  INFO 17156 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 17:54:55.658  INFO 17156 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-11-26 17:54:55.667  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-11-26 17:54:55.793  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2019-11-26 17:54:55.943  INFO 17156 --- [    Test worker] c.i.b.i.UpdateAccountIntegrationTest     : Starting UpdateAccountIntegrationTest on incubadora-Latitude-3540 with PID 17156 (started by incubadora in /home/incubadora/IdeaProjects/bank-test-unit-integration-simplified)
+2019-11-26 17:54:55.944  INFO 17156 --- [    Test worker] c.i.b.i.UpdateAccountIntegrationTest     : No active profile set, falling back to default profiles: default
+2019-11-26 17:54:56.337  INFO 17156 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 17:54:56.363  INFO 17156 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 2 repository interfaces.
+2019-11-26 17:54:56.473  INFO 17156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 17:54:56.596  WARN 17156 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-11-26 17:54:56.600  INFO 17156 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-11-26 17:54:56.601  INFO 17156 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-26 17:54:56.602  INFO 17156 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-26 17:54:56.646  INFO 17156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-26 17:54:56.647  INFO 17156 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 698 ms
+2019-11-26 17:54:56.842  INFO 17156 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-26 17:54:56.854  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-11-26 17:54:56.906  INFO 17156 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-11-26 17:54:56.916  INFO 17156 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-11-26 17:54:57.150  INFO 17156 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-26 17:54:57.150  INFO 17156 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 17:54:57.757  INFO 17156 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 17:54:58.052  INFO 17156 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 43419 (http) with context path ''
+2019-11-26 17:54:58.053  INFO 17156 --- [    Test worker] c.i.b.i.UpdateAccountIntegrationTest     : Started UpdateAccountIntegrationTest in 2.241 seconds (JVM running for 22.34)
+Request method:	PUT
+Request URI:	http://localhost:43419/accounts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "numberAccount": "123456",
+    "agency": "1111",
+    "balance": 1000.0,
+    "limitAccount": 0.0,
+    "accountTypeString": "SAVINGS",
+    "idCustomer": 2
+}
+2019-11-26 17:54:58.331  INFO 17156 --- [o-auto-4-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-26 17:54:58.332  INFO 17156 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-26 17:54:58.394  INFO 17156 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 62 ms
+HTTP/1.1 204 
+Date: Tue, 26 Nov 2019 19:54:58 GMT
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
