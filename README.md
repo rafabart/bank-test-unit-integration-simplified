@@ -1,5 +1,11 @@
 Projeto demo da incubadora. CRUD de Conta e Cliente.
 
+Este projeto é uma versão mais simples do projeto abaixo,
+sem usar classes baseadas em listener:
+
+https://github.com/rafabart/bank-test-unit-integration
+
+
 Usando:
 
 * JDK 11
